@@ -1,0 +1,14 @@
+{
+    "name": "SettingClient",
+    "alias": "settingclient",
+    "description": "",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\SettingClient\\Providers\\SettingClientServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

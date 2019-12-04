@@ -1,0 +1,30 @@
+{
+    "name": "scancode/setting-client-module",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\SettingClient\\Providers\\SettingClientServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\SettingClient\\": ""
+        }
+    },
+    "type": "laravel-module",
+    "require": {
+        "scancode/portal-module": "0.*"
+    }
+}
+
