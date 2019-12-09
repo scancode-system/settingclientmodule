@@ -27,3 +27,4 @@ class InsertSettingsRecordsClient extends Migration
        (Setting::where('module', 'SettingClient')->first())->delete();
     }
 }
+ 
