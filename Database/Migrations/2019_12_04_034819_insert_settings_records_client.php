@@ -14,7 +14,7 @@ class InsertSettingsRecordsClient extends Migration
      */
     public function up()
     {
-        Setting::create(['module' => 'SettingClient', 'alias' => 'Cliente']);
+        Setting::create(['module' => 'SettingClient', 'alias' => 'Cliente', 'import' => 'Client@setting']);
     }
 
     /**
